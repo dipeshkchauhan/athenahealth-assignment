@@ -1,6 +1,17 @@
 import requests
 import json
 
+###############################################################################
+# Script Purpose:
+#   This script fetches data from a specified endpoint and parses it into a
+#   suitable data structure. It then prints the number of posts returned by
+#   that endpoint.
+#
+# Date: 18-04-1994
+# Author: Dipesh Kumar
+# Version: 1.0
+###############################################################################
+
 # Function to count the number of posts
 def count_posts(posts):
     # Check if posts data is available
