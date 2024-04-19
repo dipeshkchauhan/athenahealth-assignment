@@ -12,6 +12,9 @@ import json
 # Version: 1.0
 ###############################################################################
 
+# Constants
+url = "https://jsonplaceholder.typicode.com/posts"
+
 # Function to count the number of posts
 def count_posts(posts):
     # Check if posts data is available
@@ -23,7 +26,6 @@ def count_posts(posts):
         return 0
 
 # Fetching data from the URL
-url = "https://jsonplaceholder.typicode.com/posts"
 response = requests.get(url)
 
 # Parsing the JSON data
