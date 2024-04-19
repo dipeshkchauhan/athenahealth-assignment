@@ -7,7 +7,7 @@ import json
 #   suitable data structure. It then prints the number of posts returned by
 #   that endpoint.
 #
-# Date: 18-04-1994
+# Date: 18-04-2024
 # Author: Dipesh Kumar
 # Version: 1.0
 ###############################################################################
